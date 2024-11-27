@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #F1F3F0;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  /*font-weight: <weight>;*/
+  font-style: normal;
+  /*font-family: 'Lora', 'Montserrat', sans-serif;*/
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.container {
+  max-width: 1182px;
+}

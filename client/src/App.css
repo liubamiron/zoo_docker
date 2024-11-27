@@ -1,0 +1,516 @@
+
+.f_montserrat {
+    font-family: ' Montserrat Alternates', sans-serif;
+}
+
+.f_size_42 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.f_weight_700 {
+    font-weight: 700;
+}
+
+.f_weight_600 {
+    font-weight: 600;
+}
+
+.f_weight_400 {
+    font-weight: 400;
+}
+
+.lh_27 {
+    line-height: 27px;
+}
+
+.f_size_18 {
+    font-size: 18px;
+}
+
+.f_size_14 {
+    font-size: 14px;
+}
+
+.f_size_13 {
+    font-size: 13px;
+}
+
+.title {
+    font-size: 85px;
+    font-weight: 700;
+    color: white;
+}
+
+.pad_top_150_5 {
+    padding-top: 150px;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    min-height: 100vh; /* Full height */
+}
+
+.content {
+    flex: 1;
+}
+
+.text_white {
+    color: white !important;
+}
+
+.height_280 {
+    height: 280px;
+}
+
+.navbar-custom {
+    height: 73px; /* Set the height for the navbar */
+}
+
+.margin_top_40 {
+    margin-top: 40px !important;
+}
+
+.margin_top_85_40 {
+    margin-top: 85px;
+}
+
+.margin_top_185_40 {
+    margin-top: 185px;
+}
+
+.logo {
+    height: 73px;
+}
+
+.phone-icon {
+    height: 24px; /* Adjust size if needed */
+}
+
+.phone-number {
+    border-right: 1px solid gray;
+    padding-right: 10px; /* Adjust spacing as needed */
+}
+
+.language_button {
+    padding: 0 0 0 15px; /* Padding as per your requirement */
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove box shadow if necessary */
+}
+
+.language_button .btn-group {
+    padding: 0; /* Adjust padding for the button group */
+}
+
+.language_button .dropdown-toggle {
+    border: none !important; /* Remove border from the dropdown toggle */
+    color: white!important;
+}
+
+.language_button .dropdown-toggle :hover {
+    background-color: #0A4D1E;
+}
+
+.language_button .dropdown-menu {
+    min-width: 90px; /* Ensure the menu does not shrink below this width */
+}
+
+.language_button .dropdown-item {
+    padding: 10px; /* Adjust padding inside dropdown items */
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;  /* Adjust spacing between icons */
+    margin-left: 15px; /* Add space before icons */
+}
+
+.social-icon {
+    height: 24px;  /* Adjust as needed */
+}
+
+.pad_desk_18 {
+    padding: 18px;
+}
+
+.navbar-toggler {
+    border: none; /* Remove border by default */
+    outline: none; /* Remove outline */
+    box-shadow: none; /* Remove any box shadow */
+}
+
+.navbar-toggler:hover {
+    border: none; /* Ensure no border on hover */
+    outline: none; /* Ensure no outline on hover */
+    box-shadow: none; /* Ensure no shadow on hover */
+}
+
+.z2 {
+    background: url('/main_banner.JPG') no-repeat;
+    background-size:cover;
+    /*background-size:contain;*/
+}
+
+.background_green {
+    background: url('/home_green.svg') no-repeat center top;
+    background-size: contain;
+}
+
+.background_white {
+    background: url('/home_white_1.png') no-repeat center bottom;
+    background-size: contain;
+}
+
+.background_white2 {
+    background: url('/home_white.png') no-repeat center top;
+    background-size: cover;
+}
+
+.bg_banner {
+    /*background: url("/banner.svg") no-repeat center top;*/
+    background: url("/main_banner_3.JPG") no-repeat center top;
+    /*background: url("/zoo-3-home.svg") no-repeat center top;*/
+    background-size:cover;
+    /*background-size:contain;*/
+}
+
+.bg_banner_green {
+    background: url("/bg_green_baner.png") no-repeat center bottom;
+    background-size:contain;
+}
+
+.bg_green {
+    background: #0A4D1EFC;
+}
+
+.bg_bone {
+    background: #e7ece6;
+}
+.bg_yellow_green {
+    background: #0A4D1EFC url("/yellow_bg.png") no-repeat center bottom;
+    background-size: cover;
+}
+
+.bg_light_green {
+    background: #E8ECE6!important;
+}
+
+.bg_gray {
+    background: #E8ECE6;
+}
+
+.color_white {
+    color: white;
+}
+
+.color_yellow {
+    color: #FCC044;
+}
+
+.color_carrot {
+    color: #f7931e;
+}
+
+
+.bg_yellow {
+    background: #FCC044;
+}
+
+.min-height-262 {
+    min-height: 262px;
+}
+
+.ticket_bg {
+    background: url("/ticket_bg.png") no-repeat;
+}
+
+.ticket_bg_dark {
+    background: url("/bg_dark_green.png") no-repeat;
+}
+
+.bg_shape2 {
+    background: url('/shape2.png') no-repeat;
+    background-size: cover;
+}
+
+.card1_style {
+    border-radius: unset!important;
+    border-bottom: unset!important;
+    border-left: unset!important;
+    border-top: unset!important;
+    border-right: unset!important;
+    background-color: #F1F3F0!important;
+    box-shadow: 0px 93.8px 187.6px 0px #2D2D2D22;
+    box-shadow: 0px 22.93px 22.93px 0px #F7F9F7 inset;
+    box-shadow: -0px -22.93px 22.93px 0px #C5C6C4 inset;
+}
+
+.height_27 {
+   line-height: 27px;
+}
+
+.padtop_125_25 {
+    padding-top: 125px;
+}
+
+.pad_top_95_5 {
+    padding-top: 95px;
+}
+
+.pad_top_55_15 {
+    padding-top: 55px;
+}
+
+.marg_180_25 {
+    margin: 180px 21px -20px;
+    /*margin: 0;*/
+}
+
+.no_padding {
+    padding: 0 !important;
+}
+
+.card_no_radius {
+    border-radius: 0 !important; /* Remove border radius */
+    border-right: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.color_green {
+    color: #0A4D1EFC!important;
+}
+
+
+.btn_by {
+    width: 200px;
+    margin-right: 50px;
+    padding: 10px 0;
+}
+
+.nav-link-active {
+    color: #0A4D1EFC !important;
+    font-weight: bold;
+}
+
+.show-desktop {
+    display: block; /* Default to block for desktop */
+}
+
+.show_mobile {
+    display: none;
+}
+
+.custom-accordion-header {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.card-footer {
+    border-top: none!important;
+}
+
+.care_style {
+    padding-top: 219px;
+}
+
+.custom-accordion .accordion-button {
+    background-color: #0A4D1EFC; /* Green background for the header */
+    color: white; /* White text */
+    border: none; /* Remove border */
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+    background-color: #0A4D1EFC; /* Darker green when accordion is expanded */
+    color: white;
+}
+
+.custom-accordion .accordion-button:hover {
+    background-color: #124712; /* Light green on hover */
+    color: white;
+}
+
+.custom-accordion .accordion-body {
+    background-color: #f5f5f5; /* Light grey background for the content */
+    color: black; /* Black text for content */
+}
+
+.custom-search-input {
+    background-color: #e7ece6!important;
+    color: #124712;
+    border: 0.5px solid darkgreen; /* Optional: Add a green border */
+    height: 45px;
+}
+
+.custom-search-input::placeholder {
+    color: #124712;
+}
+
+
+.custom-datepicker {
+    /*border: 2px solid #28a745; !* Green border color *!*/
+    border: 0.5px solid darkgreen; /* Green border color */
+    color: darkgreen; /* Green text color */
+    padding-left: 45px; /* Add padding to make space for the icon */
+    width: 100%;
+    background-color: #e7ece6;
+    height: 45px; /* Set the height of the input */
+    line-height: 45px; /* Adjust the line height to vertically center the text */
+    font-size: 16px;
+}
+
+.custom-datepicker::placeholder {
+    color: darkgreen; /* Green placeholder text color */
+}
+
+.input-icon {
+    position: absolute;
+    left: -3px; /* Adjust positioning to align inside the input */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #28a745; /* Green icon color */
+    z-index: 10;
+}
+
+.input-group-text {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+/* customStyles.css */
+.pagination .page-link {
+    color: green; /* Change pagination text color */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: green; /* Change the background color of active page */
+    border-color: green; /* Change the border color of active page */
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #e6f4e6; /* Light green background on hover */
+    color: green; /* Change color on hover */
+}
+
+.custom-range {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 8px;
+    background: #ffcc80; /* Light orange */
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.custom-range:hover {
+    opacity: 1;
+}
+
+/* Thumb (slider handle) */
+.custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #ff8c00; /* Dark orange */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.custom-range::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #ff8c00;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 991px) { /* Adjust for tablets and mobile */
+    .navbar-custom {
+        height: auto; /* Allow height to adjust for mobile */
+    }
+
+    .show-desktop {
+        display: none!important;
+    }
+
+    .show_mobile {
+        display: block!important;
+    }
+
+    .pad_top_55_15 {
+        padding-top: 5px;
+    }
+
+    .marg_180_25 {
+        /*margin: 180px 21px -20px;*/
+        margin: 25px 0 0 0;
+    }
+
+    .z2 {
+        height: auto;
+        background-size:contain;
+    }
+
+    .pad_top_150_5 {
+        padding-top: 5px;
+    }
+
+    .margin_top_85_40 {
+        margin-top: 40px;
+    }
+
+    .title {
+        font-size: 65px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .text_white {
+        color: white;
+    }
+
+    .d-none.d-md-flex {
+        display: none !important; /* Hide for mobile */
+    }
+
+    .navbar-toggler {
+        margin-left: auto; /* Align the toggle button to the right */
+    }
+
+    .pad_desk_18 {
+        padding: 1px;
+    }
+
+    .btn_by {
+        width: 200px;
+        padding: 10px 0;
+        margin: 10px 0;
+
+    }
+
+    .padtop_125_25 {
+        padding-top: 25px;
+    }
+
+    .pad_top_55_15 {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 992px) { /* Adjust for larger screens */
+    .navbar-toggler {
+        display: none; /* Hide toggle button on larger screens */
+    }
+}
+

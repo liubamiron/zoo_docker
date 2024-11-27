@@ -14,15 +14,19 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 // Define CORS options
+// Define CORS options
 const corsOptions = {
- origin: ['http://localhost', 'http://195.178.106.227'], // Array of allowed origins
- methods: ["*"], // Allowed HTTP methods
- allowedHeaders: ["*"], // Allowed headers
- credentials: true, // Allow credentials (e.g., cookies, authorization headers)
+ origin: ['http://localhost:5173', 'http://195.178.106.227'], // Explicitly define allowed origins
+ methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed HTTP methods
+ allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+ credentials: true, // Allow credentials (cookies or Authorization headers)
 };
 
 // Apply CORS middleware
 app.use(cors(corsOptions));
+
+// Handle preflight requests
+app.options('*', cors(corsOptions));
 
 app.use(express.json());
 app.use(express.static(path.resolve(__dirname, 'static')));

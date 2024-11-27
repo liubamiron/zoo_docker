@@ -15,6 +15,15 @@ services:
     networks:
       - dev
 
+    postgres:
+      image: postgres:13.3
+      environment:
+        POSTGRES_DB: "zoo_md"
+        POSTGRES_USER: "[postgres]"
+        POSTGRES_PASSWORD: "root"
+      ports:
+        - "5432:5432"
+
   server:
     build:
       context: ./server
